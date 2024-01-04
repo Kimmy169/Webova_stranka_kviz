@@ -1,0 +1,28 @@
+.button{ 
+border: none;
+color:white;
+padding 50px 50px;
+display:inline-block;
+margin: 50px 50px;
+cursor: pointer; 
+}
+.button1{
+background-color: white;
+color: black;
+}
+.button2{
+background-color: white;
+color: black;
+}
+.button1{width: 150px;}
+.button1{height:150px;}
+.button2{width: 150px;}
+.button2{height:150px;}
+body{
+	background: linear-gradient(to bottom right, white, LightBlue) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+	
+}
