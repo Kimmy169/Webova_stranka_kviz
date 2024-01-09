@@ -8,12 +8,19 @@
 <h1 style="text-align:center;">Kvíz všeobecných znalostí</h1>
 <h2 style="text-align:center">Kolik hráčů bude hrát ?</h2>
 
-<button class="button button1">1</button>
-<button class="button button1">2</button>
+
+</form>
 </body>
 </html>
+Počet hráčů:
+<input type="radio" name "PocetHracu"
 <?php
-
-
-
+if (isset($pocetHracu) && pocetHracu == 1) echo "checked";
 ?>
+value=1> 1 hráč
+<input type="radio" name "PocetHracu"
+<?php
+if (isset($pocetHracu) && pocetHracu == 2) echo "checked";
+?>
+value=2> 2 hráči
+<span class="error">* <?php echo $genderErr;?></span>
